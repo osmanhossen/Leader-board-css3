@@ -7,6 +7,16 @@ body{
     background-color: #f3f1ff;
 }
 
+/* nav-bar */
+.header-section{
+background-color: blueviolet;
+/* display: flex;
+align-items: center; */
+}
+/* .header-tab{
+    display:flex;
+} */
+
 main{
     display: flex;
     flex-direction: column;
@@ -83,4 +93,41 @@ grid-row-gap: 30px;
 .author{
     color: #9f9f9f;
     font-size: 16px;
+}
+/*------------ latest Course-------------- */
+.courses{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 24px;
+
+}
+
+
+.course img{
+    width: 224px;
+    height: 104px;
+}
+.course-author{
+    color: #f56329;
+}
+.course-rating-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.fa-star{
+    font-size: 12px;
+}
+.fa-star.filled{
+    color: #ffc014;
+}
+.fa-star.empty{
+    color: #aeaeae;
+}
+.course-duration{
+    background-color: #70351d;
+    color: rgb(204, 192, 192);
+    border-radius: 30px;
+    padding: 10px;
+    grid-gap: 10px;
 }
