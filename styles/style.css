@@ -8,21 +8,24 @@ body{
 }
 
 /* nav-bar */
-.header-section{
+nav{
 background-color: blueviolet;
-/* display: flex;
-align-items: center; */
+ display: flex;
+justify-content:space-between;
 }
-/* .header-tab{
-    display:flex;
-} */
 
+nav a,span {
+    text-decoration: none;
+    margin-right:10px; 
+    color: whitesmoke;
+    align-items: center;
+    justify-content: center;
+} 
 main{
     display: flex;
     flex-direction: column;
     border-radius: 5px;
     align-items: center;
-
 }
 
 .container{
